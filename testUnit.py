@@ -10,7 +10,7 @@ class TestAdd(unittest.TestCase):
         self.assertEqual(8, res)
     def test_add_8_1(self):
         res = Calc.add(8,-1)
-        self.assertEqual(7, res)
+        self.assertEqual(5, res)
     def test_sub_8_2(self):
         res = Calc.subtract(8,2)
         self.assertEqual(6, res)
